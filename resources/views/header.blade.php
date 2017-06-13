@@ -13,7 +13,9 @@
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link">Music</a></li>
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link">Lyrics</a></li>
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link">Shows</a></li>
-                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">logo</a></li>
+                    <li class="pure-menu-item logo"><a href="#" class="pure-menu-link">
+                        <img src="{{asset('img/logo.jpg')}}" />
+                    </a></li>
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link">Store</a></li>
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link">Studio Equilibrium</a></li>

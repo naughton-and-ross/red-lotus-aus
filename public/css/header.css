@@ -26,6 +26,7 @@
   position: relative;
   padding-top: .5em;
   padding-bottom: .5em;
+  display: none;
 }
 
 .custom-menu-brand {
@@ -39,7 +40,7 @@
   height: 44px;
   display: block;
   position: absolute;
-  top: 3px;
+  top: 33px;
   right: 0;
   display: none;
 }
@@ -87,7 +88,7 @@
   -ms-transition: all 0.5s;
   transition: all 0.5s;
   height: 3em;
-  width: 40em;
+  width: 45em;
   position: absolute;
   top: 0;
   z-index: -1;
@@ -100,7 +101,17 @@
   transform: translateY(-44px);
 }
 
-@media (max-width: 65em) {
+li img {
+    width: 6em;
+}
+
+#tuckedMenu {
+    display: table;
+    width: auto;
+    margin: 0 auto;
+}
+
+@media (max-width: 45em) {
 
   .custom-menu {
       display: block;
@@ -145,6 +156,15 @@
       top: 45px;
       position: absolute;
       overflow: hidden;
+  }
+
+  li.logo {
+      display: none !important;
+  }
+
+  #tuckedMenu {
+      display: block;
+      width: 100%;
   }
 
 }
