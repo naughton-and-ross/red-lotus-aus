@@ -1,0 +1,33 @@
+
+// Fonts
+//@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+body {
+    background: black;
+    font-family: serif;
+    font-size: 100%;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.l-box {
+    padding: 1em;
+}
+
+header {
+    background: white;
+
+    .filler {
+        background: aqua;
+    }
+
+    img {
+        width: 5em;
+    }
+}
