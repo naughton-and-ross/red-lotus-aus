@@ -1,5 +1,5 @@
 .custom-menu-wrapper {
-  background-color: #808080;
+  background-color: white;
   margin-bottom: 2.5em;
   white-space: nowrap;
   position: relative;
@@ -88,7 +88,7 @@
   -ms-transition: all 0.5s;
   transition: all 0.5s;
   height: 3em;
-  width: 45em;
+  width: 47em;
   position: absolute;
   top: 0;
   z-index: -1;
@@ -103,6 +103,7 @@
 
 li img {
     width: 6em;
+    margin-left: 0.75em;
 }
 
 #tuckedMenu {
@@ -111,7 +112,7 @@ li img {
     margin: 0 auto;
 }
 
-@media (max-width: 45em) {
+@media (max-width: 47em) {
 
   .custom-menu {
       display: block;
@@ -126,7 +127,7 @@ li img {
       position: absolute;
       width: 100%;
       border-top: 1px solid #eee;
-      background-color: #808080\9;
+      background-color: white;
       z-index: 100;
   }
 
