@@ -2,7 +2,7 @@
     <div class="pure-g">
         <div class="pure-u-1">
             <div class="pure-menu custom-menu custom-menu-top">
-                <a href="#" class="pure-menu-heading custom-menu-brand">
+                <a href="/" class="pure-menu-heading custom-menu-brand">
                     <img src="{{asset('img/logo.jpg')}}" />
                 </a>
                 <a href="#" class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s><s class="bar"></s></a>
