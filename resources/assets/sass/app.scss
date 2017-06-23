@@ -24,6 +24,10 @@ body {
 
 .l-box {
     padding: 1em;
+
+    &.double {
+        padding: 2em;
+    }
 }
 
 header {
