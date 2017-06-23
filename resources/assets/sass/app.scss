@@ -116,6 +116,8 @@ form {
         color: white;
         font-size: 150%;
         background-color: black;
+        outline: none;
+        border: 1px solid black;
     }
 }
 
@@ -156,6 +158,12 @@ footer {
 
     iframe {
         margin-bottom: 0;
+    }
+
+    form {
+        input, textarea {
+            width: 95%;
+        }
     }
 
     footer {
