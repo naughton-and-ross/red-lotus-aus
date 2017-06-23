@@ -3,7 +3,7 @@
 <div class="pure-g">
     <div class="pure-u-1">
         <div class="l-box">
-            <h1>Lyrics</h1>
+            <h1>LYRICS</h1>
             <h2>A Song Title</h2>
             <p class="lyric">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

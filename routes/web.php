@@ -31,6 +31,6 @@ Route::get('/store', function () {
     return view('welcome');
 });
 
-Route::get('/contact', function () {
-    return view('welcome');
-});
+Route::get('contact', 'ContactController@create');
+
+Route::post('contact', 'ContactController@sendEmail');

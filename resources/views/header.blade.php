@@ -17,7 +17,7 @@
                         <img src="{{asset('img/logo.jpg')}}" />
                     </a></li>
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link">Store</a></li>
-                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
+                    <li class="pure-menu-item"><a href="contact" class="pure-menu-link">Contact</a></li>
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link">Studio</a></li>
                 </ul>
             </div>
