@@ -54,6 +54,7 @@ p {
     &.lyric {
         width: 50%;
         margin: 0 auto;
+        padding-bottom: 1em;
     }
 }
 
@@ -80,6 +81,7 @@ iframe {
 
 footer {
     background: black;
+    margin-top: 5em;
 
     .pure-menu {
         ul {
@@ -102,6 +104,12 @@ footer {
 }
 
 @media (max-width: 47em) {
+
+    p {
+        &.lyric {
+            width: 75%;
+        }
+    }
 
     footer {
         .pure-menu {

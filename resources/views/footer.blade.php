@@ -8,7 +8,7 @@
                 <img class="pure-img" src="{{asset('img/logo-trans.png')}}" />
             </div>
         </div>
-        <div class="pure-u-1 pure-u-md-2-24 pure-u-lg-7-24">
+        <div class="pure-u-1 pure-u-md-2-24 pure-u-lg-5-24 pure-u-xl-8-24">
 
         </div>
         <div class="pure-u-1 pure-u-md-11-24 pure-menu pure-menu-horizontal">
