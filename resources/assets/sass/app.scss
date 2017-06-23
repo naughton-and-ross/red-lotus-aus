@@ -100,3 +100,17 @@ footer {
         }
     }
 }
+
+@media (max-width: 47em) {
+
+    footer {
+        .pure-menu {
+            ul {
+                font-size: 100%;
+                display: table !important;
+                margin: 0 auto;
+            }
+        }
+    }
+
+}

@@ -1,9 +1,9 @@
 <footer>
     <div class="pure-g">
-        <div class="pure-u-6-24 pure-u-md-2-24">
+        <div class="pure-u-9-24 pure-u-md-2-24">
 
         </div>
-        <div class="pure-u-12-24 pure-u-md-3-24">
+        <div class="pure-u-6-24 pure-u-md-3-24">
             <div class="l-box">
                 <img class="pure-img" src="{{asset('img/logo-trans.png')}}" />
             </div>
@@ -19,13 +19,13 @@
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link">Shows</a></li>
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link">Store</a></li>
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
-                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">Studio</a></li>
                 </ul><br/>
                 <ul class="pure-menu-list">
                     <li class="pure-menu-item"><a href="music" class="pure-menu-link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fa fa-bandcamp" aria-hidden="true"></i></a></li>
+                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">Studeio Equilibrium Logo</a></li>
                 </ul>
             </div>
         </div>
