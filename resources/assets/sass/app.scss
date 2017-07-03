@@ -2,14 +2,14 @@
 // Fonts
 //@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
 
-@import url('https://fonts.googleapis.com/css?family=Rajdhani:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Teko:300,400,500');
 
 // Variables
 @import "variables";
 
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
-    font-family: 'Rajdhani', sans-serif !important;
+    font-family: 'Teko', sans-serif !important;
 }
 
 body {
@@ -32,14 +32,15 @@ body {
 
 header {
     background: white;
-
+    text-transform: uppercase;
+    font-size: 150%;
 
     .filler {
         background: aqua;
     }
 
     img {
-        width: 5em;
+        width: 3em;
     }
 }
 
@@ -53,12 +54,12 @@ h2 {
 
 p {
     text-align: center;
-    font-size: 110%;
+    font-size: 135%;
 
     &.lyric {
         width: 50%;
         margin: 0 auto;
-        padding-bottom: 1em;
+        padding-bottom: 0.1em;
     }
 }
 
@@ -73,7 +74,7 @@ a {
 }
 
 iframe {
-    margin-bottom: -1em;
+    margin-bottom: 4em;
 }
 
 #muteYouTubeVideoPlayer {
@@ -115,7 +116,7 @@ form {
     }
 
     button {
-        width: 100%;
+        width: 50%;
         padding: 1em;
         color: white;
         font-size: 150%;
@@ -161,7 +162,7 @@ footer {
     }
 
     iframe {
-        margin-bottom: 0;
+        margin-bottom: -1em;
     }
 
     form {
