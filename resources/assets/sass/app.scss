@@ -137,6 +137,7 @@ footer {
         ul {
             font-size: 140%;
             li {
+                text-transform: uppercase;
 
                 a {
                     &.pure-menu-link {
@@ -171,7 +172,7 @@ footer {
     }
 
     iframe {
-        margin-bottom: -1em;
+        margin-bottom: 4em;
     }
 
     form {
