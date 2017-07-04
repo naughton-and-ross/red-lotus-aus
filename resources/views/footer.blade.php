@@ -22,9 +22,9 @@
                 </ul><br/>
                 <ul class="pure-menu-list">
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                    <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fa fa-bandcamp" aria-hidden="true"></i></a></li>
+                    <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
+                    <li class="pure-menu-item"><a href="#" class="pure-menu-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                 </ul>
                 <br/>
                 <ul class="pure-menu-list">

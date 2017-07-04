@@ -5,7 +5,7 @@
         <div class="l-box">
             <h1>MUSIC</h1>
             <p>
-                Listen on Spotify below, listen on <a class="body" href="">iTunes</a> or <a class="body" href="">Goodplay</a>, or buy a CD on our <a class="body" href="store">Store</a>
+                Listen on Spotify below, or listen on <a class="body" href="">iTunes</a>, <a class="body" href="">GooglePlay</a>, <a class="body" href="">Amazon Music</a>, or buy a CD on our <a class="body" href="store">Store</a>
             </p>
         </div>
     </div>
