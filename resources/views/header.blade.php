@@ -3,7 +3,7 @@
         <div class="pure-u-1">
             <div class="pure-menu custom-menu custom-menu-top">
                 <a href="/" class="pure-menu-heading custom-menu-brand">
-                    <img src="{{asset('img/logo.jpg')}}" />
+                    <img src="{{asset('img/logo-trans.png')}}" />
                 </a>
                 <a href="#" class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s><s class="bar"></s></a>
             </div>
@@ -14,7 +14,7 @@
                     <li class="pure-menu-item"><a href="lyrics" class="pure-menu-link">Lyrics</a></li>
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link">Shows</a></li>
                     <li class="pure-menu-item logo"><a href="/" class="pure-menu-link">
-                        <img src="{{asset('img/logo.jpg')}}" />
+                        <img src="{{asset('img/logo-trans.png')}}" />
                     </a></li>
                     <li class="pure-menu-item"><a href="#" class="pure-menu-link">Store</a></li>
                     <li class="pure-menu-item"><a href="contact" class="pure-menu-link">Contact</a></li>

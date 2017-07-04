@@ -1,6 +1,6 @@
 <footer>
     <div class="pure-g">
-        <div class="pure-u-9-24 pure-u-md-2-24">
+        <div class="pure-u-9-24 pure-u-md-1 pure-u-xl-2-24">
 
         </div>
         <div class="pure-u-6-24 pure-u-md-5-24 pure-u-lg-4-24 pure-u-xl-3-24">
@@ -8,10 +8,10 @@
                 <img class="pure-img" src="{{asset('img/logo-trans.png')}}" />
             </div>
         </div>
-        <div class="pure-u-1 pure-u-md-2-24 pure-u-lg-5-24 pure-u-xl-8-24">
+        <div class="pure-u-1 pure-u-md-2-24 pure-u-lg-3-24 pure-u-xl-3-24">
 
         </div>
-        <div class="pure-u-1 pure-u-md-11-24 pure-menu pure-menu-horizontal">
+        <div class="pure-u-1 pure-u-md-12-24 pure-u-lg-10-24 pure-u-xl-8-24 pure-menu pure-menu-horizontal">
             <div class="l-box double">
                 <ul class="pure-menu-list">
                     <li class="pure-menu-item"><a href="music" class="pure-menu-link">Music</a></li>
