@@ -51,6 +51,7 @@ h1 {
 
 h2 {
     text-align: center;
+    color: #e21515;
 }
 
 p {
@@ -92,25 +93,29 @@ form {
         width: 100%;
         margin-bottom: 1em;
         font-size: 150%;
-        padding: 1em 0 1em 1em;
+        padding: 1em 0 1em 0;
         outline: none;
         border: 1px solid #dedede;
         color: black;
+        text-align: center;
 
         &:focus {
             border: 1px solid black;
         }
+
     }
 
     textarea {
         width: 100%;
         height: 10em;
-        padding: 1em 0 1em 1em;
+        padding: 1em 0 1em 0;
         font-size: 150%;
         outline: none;
         resize: none;
         border: 1px solid #dedede;
         margin-bottom: 1em;
+        text-align: center;
+        color: black;
 
         &:focus {
             border: 1px solid black;
@@ -126,6 +131,8 @@ form {
         outline: none;
         border: 1px solid black;
         background-color: #d21414;
+        margin: 0 auto;
+        display: table;
 
     }
 }
@@ -176,8 +183,8 @@ footer {
     }
 
     form {
-        input, textarea {
-            width: 92%;
+        input, textarea, button {
+            width: 100%;
         }
     }
 
