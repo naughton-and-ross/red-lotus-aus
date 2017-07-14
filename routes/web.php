@@ -32,5 +32,11 @@ Route::get('/store', function () {
 });
 
 Route::get('contact', 'ContactController@create');
-
 Route::post('contact', 'ContactController@sendEmail');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/shows', 'ShowController@view');
+Route::post('/shows', 'ShowController@store');

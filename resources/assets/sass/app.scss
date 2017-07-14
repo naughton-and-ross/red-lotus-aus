@@ -137,6 +137,28 @@ form {
     }
 }
 
+.show-item {
+    border-bottom: 1px solid white;
+
+    &:first-of-type {
+        border-top: 1px solid white;
+    }
+
+    .show-more {
+
+        a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            background-color: #e21515;
+        }
+    }
+
+    input {
+        color: black;
+    }
+}
+
 footer {
     background: black;
 
