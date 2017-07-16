@@ -12,12 +12,12 @@
     <div class="pure-u-1 pure-u-md-10-24">
         @foreach ($shows as $show)
         <div class="pure-u-1 show-item">
-            <div class="pure-u-7-24 show-date">
+            <div class="pure-u-6-24 pure-u-md-4-24 show-date">
                 <p>
                     {{$show->date}}
                 </p>
             </div>
-            <div class="pure-u-9-24 show-name">
+            <div class="pure-u-10-24 pure-u-md-12-24 show-name">
                 <p>
                     {{$show->venue}} &middot; {{$show->time}}
                 </p>

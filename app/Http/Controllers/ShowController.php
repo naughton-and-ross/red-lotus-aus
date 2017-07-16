@@ -33,5 +33,7 @@ class ShowController extends Controller
         $show->link = $data->link;
 
         $show->save();
+
+        return redirect('/shows');
     }
 }
