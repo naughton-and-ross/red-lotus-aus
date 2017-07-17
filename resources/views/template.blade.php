@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ config('app.locale') }}">
     <head>
-        <title>Red Lotus Australia</title>
+        <title>Red Lotus</title>
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
         <link rel="stylesheet" href="{{asset('css/header.css')}}">
         @include('head')

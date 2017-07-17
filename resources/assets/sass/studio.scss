@@ -10,11 +10,11 @@
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     font-family: 'Teko', sans-serif !important;
-    color: white;
+    color: black;
 }
 
 body {
-    background: black;
+    background: white;
     font-size: 100%;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 header {
-    background: black;
+    background: white;
     text-transform: uppercase;
     font-size: 150%;
 
@@ -130,7 +130,7 @@ form {
         background-color: black;
         outline: none;
         border: 1px solid black;
-        background-color: #d21414;
+        background-color: black;
         margin: 0 auto;
         display: table;
 

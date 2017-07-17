@@ -34,6 +34,9 @@ Route::get('/store', function () {
 Route::get('contact', 'ContactController@create');
 Route::post('contact', 'ContactController@sendEmail');
 
+Route::get('studio', 'StudioController@create');
+Route::post('studio', 'StudioController@sendEmail');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
