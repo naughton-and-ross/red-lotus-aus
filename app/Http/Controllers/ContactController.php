@@ -30,15 +30,11 @@ class ContactController extends Controller
         $message .= "</table>";
         $message .= "</body></html>";
 
-        //   CHANGE THE BELOW VARIABLES TO YOUR NEEDS
-
         $to = 'william.gravette@gmail.com';
 
         $subject = 'Inquiry for Red Lotus';
 
-        $headers = "From: " . $name . "\r\n";
-        $headers .= "Reply-To: ". $contact . "\r\n";
-        $headers .= "MIME-Version: 1.0\r\n";
+        $headers = "MIME-Version: 1.0\r\n";
         $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
         if (mail($to, $subject, $message, $headers)) {
