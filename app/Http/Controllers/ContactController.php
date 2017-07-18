@@ -34,7 +34,8 @@ class ContactController extends Controller
 
         $subject = 'Inquiry for Red Lotus';
 
-        $headers = "MIME-Version: 1.0\r\n";
+        $headers = "From: " . "Red Lotus Website" . "\r\n";
+        $headers .= "MIME-Version: 1.0\r\n";
         $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
         if (mail($to, $subject, $message, $headers)) {
