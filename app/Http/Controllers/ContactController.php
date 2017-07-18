@@ -16,7 +16,6 @@ class ContactController extends Controller
 
     public function sendEmail(Request $details)
     {
-
         $name = $details->name;
         $contact = $details->contact;
         $type = $details->subject;
@@ -27,7 +26,7 @@ class ContactController extends Controller
         $message .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . $name . "</td></tr>";
         $message .= "<tr><td><strong>Contact:</strong> </td><td>" . $contact . "</td></tr>";
         $message .= "<tr><td><strong>Subject:</strong> </td><td>" . $type . "</td></tr>";
-        $message .= "<tr><td><strong>Comments:</strong> </td><td>" . $comments . "</td></tr>";
+        $message .= "<tr><td><strong>Other Comments:</strong> </td><td>" . $comments . "</td></tr>";
         $message .= "</table>";
         $message .= "</body></html>";
 
@@ -37,7 +36,12 @@ class ContactController extends Controller
 
         $subject = 'Inquiry for Red Lotus';
 
-        if (mail($to, $subject, $message)) {
+        $headers = "From: " . $name . "\r\n";
+        $headers .= "Reply-To: ". $contact . "\r\n";
+        $headers .= "MIME-Version: 1.0\r\n";
+        $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+
+        if (mail($to, $subject, $message, $headers)) {
             return redirect('contact');
         } else {
             return redirect('studio');
