@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Mail\ContactSent;
 use Illuminate\Support\Facades\Mail;
 
+use Request;
+
 
 class ContactController extends Controller
 {
@@ -16,6 +18,7 @@ class ContactController extends Controller
 
     public function sendEmail(Request $details)
     {
+
         $name = $details->name;
         $contact = $details->contact;
         $type = $details->subject;
@@ -36,7 +39,7 @@ class ContactController extends Controller
 
         $subject = 'Inquiry for Red Lotus';
 
-        if (mail($to, $subject, $message, $headers)) {
+        if (mail($to, $subject, $message)) {
             return redirect('contact');
         } else {
             return redirect('studio');
