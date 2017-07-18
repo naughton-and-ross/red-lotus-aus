@@ -2,8 +2,8 @@
 <html lang="{{ config('app.locale') }}">
     <head>
         <title>Red Lotus</title>
-        <link rel="stylesheet" href="{{asset('css/studio.css')}}">
-        <link rel="stylesheet" href="{{asset('css/header-studio.css')}}">
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
+        <link rel="stylesheet" href="{{asset('css/header.css')}}">
         @include('head')
         <script async src="https://www.youtube.com/iframe_api"></script>
         <script>
