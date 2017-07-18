@@ -39,9 +39,9 @@ class ContactController extends Controller
         $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
         if (mail($to, $subject, $message, $headers)) {
-            return redirect('contact');
+            return redirect('contact')->with('status', 'Your message has been sent!');
         } else {
-            return redirect('studio');
+            return redirect('contact');
         }
 
     }

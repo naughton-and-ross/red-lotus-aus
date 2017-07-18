@@ -7,6 +7,9 @@
     <div class="pure-u-1 pure-u-md-12-24">
         <div class="l-box">
             <h1>CONTACT</h1>
+            @if (Session::has('status'))
+                <h2>{!! session('status') !!}</h2>
+           @endif
             <form method="post">
                 {{ csrf_field() }}
                 <input class="half" type="text" name="name" placeholder="Your name" />
