@@ -16,17 +16,17 @@ class ContactController extends Controller
 
     public function sendEmail(Request $details)
     {
-        $name = "name";
-        $contact = "contact";
-        $type = "type";
-        $comments = "comments";
+        $name = $details->name;
+        $contact = $details->contact;
+        $type = $details->subject;
+        $comments = $details->text;
 
         $message = '<html><body>';
         $message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
         $message .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . $name . "</td></tr>";
         $message .= "<tr><td><strong>Contact:</strong> </td><td>" . $contact . "</td></tr>";
-        $message .= "<tr><td><strong>Type of Centre:</strong> </td><td>" . $type . "</td></tr>";
-        $message .= "<tr><td><strong>Other Comments:</strong> </td><td>" . $comments . "</td></tr>";
+        $message .= "<tr><td><strong>Subject:</strong> </td><td>" . $type . "</td></tr>";
+        $message .= "<tr><td><strong>Comments:</strong> </td><td>" . $comments . "</td></tr>";
         $message .= "</table>";
         $message .= "</body></html>";
 
