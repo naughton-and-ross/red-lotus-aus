@@ -34,12 +34,7 @@ class ContactController extends Controller
 
         $to = 'william.gravette@gmail.com';
 
-        $subject = 'Inquiry from Website';
-
-        $headers = "From: " . $name . "\r\n";
-        $headers .= "Reply-To: ". $contact . "\r\n";
-        $headers .= "MIME-Version: 1.0\r\n";
-        $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+        $subject = 'Inquiry for Red Lotus';
 
         if (mail($to, $subject, $message, $headers)) {
             return redirect('contact');
