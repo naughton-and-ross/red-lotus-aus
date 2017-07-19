@@ -95,7 +95,7 @@ iframe {
 }
 
 #mobilePlayer {
-    display: none;
+    visibility: hidden;
 }
 
 form {
@@ -212,7 +212,7 @@ footer {
     }
 
     #mobilePlayer {
-        display: block;
+        visibility: visible;
     }
 
     p {
