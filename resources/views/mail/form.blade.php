@@ -5,6 +5,6 @@
         <title></title>
     </head>
     <body>
-        {{ $details }}
+        {{ $details->name }}
     </body>
 </html>
