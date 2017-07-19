@@ -5,6 +5,6 @@
         <title></title>
     </head>
     <body>
-        {{ $details->name }}
+        <b>{{ $details->name }}</b> sent an enquiry to <b>Red Lotus</b> regarding <b>{{ $details->subject }}</b>. This is what they said: <b>{{ $details->text }}</b>. Reach them at: <b>{{ $details->contact }}</b>
     </body>
 </html>
