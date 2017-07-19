@@ -34,14 +34,14 @@ class StudioController extends Controller
 
         $subject = 'Inquiry for Studio Equilibrium';
 
-        $headers = "From: " . "Red Lotus Website" . "\r\n";
+        $headers = "From: " . "RedLotusWebsite" . "\r\n";
         $headers .= "MIME-Version: 1.0\r\n";
         $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
         if (mail($to, $subject, $message, $headers)) {
             return redirect('studio')->with('status', 'Your message has been sent!');
         } else {
-            return redirect('studio');
+            return redirect('studio')->with('status', 'There was a problem sending your message, please try again!');
         }
     }
 }
