@@ -14,7 +14,7 @@
 
 .custom-menu .pure-menu-link,
 .custom-menu .pure-menu-heading {
-  color: black;
+  color: white;
 }
 
 .custom-menu .pure-menu-link:hover,
@@ -46,7 +46,7 @@
 }
 
 .custom-menu-toggle .bar {
-  background-color: black;
+  background-color: white;
   display: block;
   width: 20px;
   height: 2px;
@@ -82,7 +82,7 @@
 }
 
 .custom-menu-screen {
-  background-color: white;
+  background-color: black;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -102,7 +102,7 @@
 }
 
 li img {
-    width: 4.5em;
+    width: 10em;
     margin-left: -0.1em;
 }
 
@@ -110,6 +110,7 @@ li img {
     display: table;
     width: auto;
     margin: 0 auto;
+    background-color: black;
 }
 
 @media (max-width: 47em) {

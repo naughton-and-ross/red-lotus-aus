@@ -18,6 +18,9 @@
                 <textarea name="text" placeholder="Your message:"></textarea>
                 <button type="submit" value="Submit">Submit</button>
             </form>
+            <p class="form">
+                For bookings: <a class="body" href="mailto:redlotusaus@gmail.com">redlotusaus@gmail.com</a>
+            </p>
         </div>
     </div>
     <div class="pure-u-1 pure-u-md-6-24">

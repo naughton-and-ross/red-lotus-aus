@@ -41,7 +41,7 @@ header {
     }
 
     img {
-        width: 3em;
+        width: 10em;
     }
 }
 
@@ -62,6 +62,10 @@ p {
         width: 50%;
         margin: 0 auto;
         padding-bottom: 0.1em;
+    }
+
+    &.form {
+        font-size: 160%;
     }
 }
 
@@ -206,7 +210,7 @@ footer {
     #mobilePlayer {
         display: block;
     }
-    
+
     p {
         &.lyric {
             width: 75%;
