@@ -9,6 +9,7 @@
         <script>
          function onYouTubeIframeAPIReady() {
           var player;
+          var isUnMuted = false;
           var screenWidth = document.documentElement.clientWidth * 1.5;
           player = new YT.Player('muteYouTubeVideoPlayer', {
             videoId: 'cFWeW1pBYkM', // YouTube Video ID
@@ -27,11 +28,22 @@
             },
             events: {
               onReady: function(e) {
-                e.target.mute();
-              }
+                player.mute();
+            },
+            onStateChange: function () {
+               if (player.isMuted() && player.getPlayerState() == 2 && !isUnMuted) {
+                   player.unMute();
+                   player.playVideo();
+                   isUnMuted = true;
+               }
+           }
             }
           });
          }
+
+         $('#muteYouTubeVideoPlayer').click(function(){
+          player.unMute();
+        });
 
          // Written by @labnol
         </script>
