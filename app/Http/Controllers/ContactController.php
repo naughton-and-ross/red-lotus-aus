@@ -16,14 +16,9 @@ class ContactController extends Controller
 
     public function sendEmail(Request $details)
     {
-        try {
-            Mail::to('william.gravette@gmail.com')->send(new NewBandInquiry($details));
 
-        }
+        Mail::to('william.gravette@gmail.com')->send(new NewBandInquiry($details));
 
-        catch(\Exception $e){
-            return $e;
-        }
 
         // $name = $details->name;
         // $contact = $details->contact;
