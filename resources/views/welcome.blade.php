@@ -3,7 +3,7 @@
 <div id="videoWrapper">
     <div id="muteYouTubeVideoPlayer"></div>
 </div>
-<iframe
+<iframe id="mobilePlayer"
     width="100%" height="400"
     src="http://www.youtube.com/embed/cFWeW1pBYkM"
     frameborder="0" allowfullscreen>

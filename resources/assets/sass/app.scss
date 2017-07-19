@@ -83,6 +83,11 @@ iframe {
     width: 100%;
     height: 800px;
     overflow-y: -100px;
+    display: block;
+}
+
+#mobilePlayer {
+    display: none;
 }
 
 form {
@@ -194,6 +199,14 @@ footer {
 
 @media (max-width: 47em) {
 
+    #muteYouTubeVideoPlayer {
+        display: none;
+    }
+
+    #mobilePlayer {
+        display: block;
+    }
+    
     p {
         &.lyric {
             width: 75%;
