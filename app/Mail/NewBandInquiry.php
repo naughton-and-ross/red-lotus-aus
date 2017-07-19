@@ -31,6 +31,9 @@ class NewBandInquiry extends Mailable
      */
     public function build()
     {
-        return $this->view('mail.form');
+        return $this->view('mail.form')
+                    ->with([
+                        'catagory' => "band"
+                    ]);
     }
 }
