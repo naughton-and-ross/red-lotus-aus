@@ -41,7 +41,11 @@ header {
     }
 
     img {
-        width: 10em;
+        width: 3em;
+
+        &.se {
+            width: 10em;
+        }
     }
 }
 
