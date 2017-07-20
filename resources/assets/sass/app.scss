@@ -186,11 +186,13 @@ footer {
                         color: white;
 
                         &:hover {
+                            color: black;
+                            background-color: white;
+                        }
 
-                            &:not(.no-hover) {
-                                color: black;
-                                background-color: white;
-                            }
+                        &.no-hover {
+                            color: white;
+                            background-color: black;
                         }
                     }
                 }
