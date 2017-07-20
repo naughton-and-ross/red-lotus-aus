@@ -28,7 +28,7 @@
                 </ul>
                 <br/>
                 <ul class="pure-menu-list">
-                    <li class="pure-menu-item"><a href="#" class="pure-menu-link"><img src="{{asset('img/se.png')}}" /></a></li>
+                    <li class="pure-menu-item no-hover"><a href="studio" class="pure-menu-link"><img src="{{asset('img/se.png')}}" /></a></li>
                 </ul>
             </div>
         </div>

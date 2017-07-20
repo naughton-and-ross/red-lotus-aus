@@ -61,7 +61,7 @@
                         <button type="submit" value="Submit">Submit</button>
                     </form>
                     <p class="form">
-                        or, contaqct us directly at <a class="body" href="mailto:studioequilibrium@gmail.com">studioequilibrium@gmail.com</a>
+                        or, contact us directly at <a class="body" href="mailto:studioequilibrium@gmail.com">studioequilibrium@gmail.com</a>
                     </p>
                 </div>
             </div>
