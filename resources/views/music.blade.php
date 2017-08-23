@@ -3,7 +3,7 @@
 <div class="pure-g">
     <div class="pure-u-1">
         <div class="l-box">
-            <h1><em>ILLUMINATE</em> OUT SEPTEMBER 21ST</h1>
+            <h1><em>ILLUMINATE</em> OUT 21 SEPTEMBER</h1>
             <p>
                 Until then, pre-order on <a class="body" href="">iTunes</a>, <a class="body" href="">GooglePlay</a>, or on our <a class="body" href="store">Store</a>
             </p>
