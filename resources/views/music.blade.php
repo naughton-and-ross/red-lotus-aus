@@ -5,7 +5,7 @@
         <div class="l-box">
             <h1>"ILLUMINATE" OUT 21 SEPTEMBER</h1>
             <p>
-                Until then, pre-order on <a class="body" href="">iTunes</a>, <a class="body" href="">GooglePlay</a>, or on our <a class="body" href="store">Store</a>
+                Until then, pre-order on <a class="body" href="">iTunes</a>, <a class="body" href="">GooglePlay</a>, or on our <a class="body" href="http://redlotusaus.bigcartel.com/">Store</a>
             </p>
         </div>
     </div>
