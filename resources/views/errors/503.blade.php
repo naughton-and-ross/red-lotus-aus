@@ -15,12 +15,6 @@
     <body>
         <div class="centered">
             <img width="200px" src="http://dev.redlotusaus.com/img/logo.jpg" />
-            <p>
-                {{ $exception->getMessage() }}.
-            </p>
-            <p>
-                Refresh the page in {{ $exception->retryAfter }} seconds.
-            </p>
         </div>
     </body>
 </html>
