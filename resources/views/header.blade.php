@@ -16,7 +16,7 @@
                     <li class="pure-menu-item logo"><a href="/" class="pure-menu-link">
                         <img src="{{asset('img/logo-trans.png')}}" />
                     </a></li>
-                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">Store</a></li>
+                    <li class="pure-menu-item"><a href="http://redlotusaus.bigcartel.com/" class="pure-menu-link">Store</a></li>
                     <li class="pure-menu-item"><a href="contact" class="pure-menu-link">Contact</a></li>
                     <li class="pure-menu-item"><a href="studio" class="pure-menu-link">Studio</a></li>
                 </ul>
