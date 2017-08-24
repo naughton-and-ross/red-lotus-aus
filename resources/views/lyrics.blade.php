@@ -4,6 +4,7 @@
     <div class="pure-u-1">
         <div class="l-box">
             <h1>LYRICS</h1>
+<!--
             <h2>BOOK ONE</h2>
             <p class="lyric">
                 ILLUMINATE THESE FEARS
@@ -180,6 +181,8 @@
                 &#8212;
             </p>
 
+-->
+
             <h2>THE FARTHEST SHORE</h2>
             <p class="lyric">SHOW ME THE WAY</p>
             <p class="lyric">&nbsp;</p>
@@ -237,7 +240,7 @@
             <p class="lyric">
                 &#8212;
             </p>
-
+<!--
             <h2>ME, MYSELF AND I</h2>
             <p class="lyric">I DECLARED WAR</p>
             <p class="lyric">AGAINST MYSELF, MY ONLY FRIEND</p>
@@ -369,6 +372,7 @@
             <p class="lyric">
                 &#8212;
             </p>
+-->
         </div>
     </div>
 </div>
