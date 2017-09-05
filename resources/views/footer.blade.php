@@ -17,7 +17,7 @@
                     <li class="pure-menu-item"><a href="music" class="pure-menu-link">Music</a></li>
                     <li class="pure-menu-item"><a href="lyrics" class="pure-menu-link">Lyrics</a></li>
                     <li class="pure-menu-item"><a href="shows" class="pure-menu-link">Shows</a></li>
-                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">Store</a></li>
+                    <li class="pure-menu-item"><a href="http://redlotusaus.bigcartel.com/" class="pure-menu-link">Store</a></li>
                     <li class="pure-menu-item"><a href="contact" class="pure-menu-link">Contact</a></li>
                 </ul><br/>
                 <ul class="pure-menu-list">
