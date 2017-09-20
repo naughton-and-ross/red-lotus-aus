@@ -12,7 +12,7 @@
           var isUnMuted = false;
           var screenWidth = document.documentElement.clientWidth * 1.5;
           player = new YT.Player('muteYouTubeVideoPlayer', {
-            videoId: 'IyFFtw8uu_w', // YouTube Video ID
+            videoId: 'UdSwKjHGoE0', // YouTube Video ID
             width: screenWidth,               // Player width (in px)
             height: 900,              // Player height (in px)
             playerVars: {
