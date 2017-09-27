@@ -13,12 +13,9 @@
 
     </div>
     <div class="pure-u-1 pure-u-md-16-24">
-        <!--
-        <iframe src="https://open.spotify.com/embed?uri=spotify:album:0jZFu2tihRJ65iYAo0oOtP" width="100%" height="600" frameborder="0" allowtransparency="true"></iframe>
-    -->
-        <div id="temp_filler">
+   
+        <iframe src="https://open.spotify.com/embed/album/3lUQV526xA8zS554Qh9JlS" width="100%" height="600" frameborder="0" allowtransparency="true"></iframe>
 
-        </div>
     </div>
     <div class="pure-u-1 pure-u-md-4-24">
 
