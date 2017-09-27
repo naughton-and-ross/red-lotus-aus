@@ -3,9 +3,9 @@
 <div class="pure-g">
     <div class="pure-u-1">
         <div class="l-box">
-            <h1>"ILLUMINATE" OUT 21 SEPTEMBER</h1>
+            <h1>"ILLUMINATE" OUT NOW</h1>
             <p>
-                Until then, pre-order on <a class="body" href="https://itunes.apple.com/au/album/illuminate/id1264901265">iTunes</a>, <a class="body" href="https://play.google.com/store/music/album/Red_Lotus_Illuminate?id=Befd7p4urllsawnunwrrexsb3ii">GooglePlay</a>, or on our <a class="body" href="http://redlotusaus.bigcartel.com/">Store</a>
+                Listen below on Spotify, or buy on <a class="body" href="https://itunes.apple.com/au/album/illuminate/id1264901265">iTunes</a>, <a class="body" href="https://play.google.com/store/music/album/Red_Lotus_Illuminate?id=Befd7p4urllsawnunwrrexsb3ii">GooglePlay</a>, or on our <a class="body" href="http://redlotusaus.bigcartel.com/">Store</a>
             </p>
         </div>
     </div>
